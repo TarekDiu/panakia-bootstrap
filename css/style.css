@@ -1,0 +1,153 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+.navbar-default{
+    background-color: #fff;
+    border-color: #fff;
+    margin: 0;
+    height: 85px;
+}
+.navbar{
+    border-radius: 0px;
+}
+.navbar-right{
+    
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a{
+    color: #000;
+    background-color: transparent;
+    margin-right: 20px;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color: #fff;
+    background-color: #dd4b2b;
+    border-radius: 50px;
+    transition: 0.5sec;
+}
+.bg_imgsection{
+    background: url(../images/Panakeia_template-Symu_co.jpg) no-repeat;
+    background-size: cover
+}
+.bg_imgsection h1{ color: #fff;
+padding-top: 400px;}
+.bg_imgsection h4{
+    color: #fff;
+    margin-bottom: 50px;
+}
+.bg_imgsection p{
+    color: #fff;
+}
+.bg_imgsection h2{
+    color: #fff;
+}
+.center{
+   margin: 0 auto;
+    display: block;
+}
+.btn-default{
+    color: #6c3226;
+    background-color: #fff;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    text-align: center;
+    
+    
+}
+.btn-default:hover{
+    color: #fff;
+    background-color: #dd4b2b;
+    
+}
+.news_section{
+    background-color: #edeff1;
+    padding: 40px;0px;
+}
+.news_section h1{
+    font-size: 44px;
+    padding-bottom: 40px;
+}
+.newsletter-section{
+    background: url(../images/sliderpic-2.jpg);
+    background-size: cover;
+}
+.newsletter-section h1{
+    color: #FFF;
+    font-size: 44px;
+}
+.newsletter_opacity{
+    background: rgba(0,0,0,.5);
+    padding: 60px 0px;
+}
+.newsletter-section p{
+    color: #fff;
+    line-height: 25px;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.form-control{
+    border-radius: 50px;
+    height: 45px;
+    width: 110%;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+}
+.input-group-btn:last-child>.btn,
+.input-group-btn:last-child>.btn-group{
+    margin-left: -15px;
+    border-radius: 50px;
+    height: 45px;
+    padding: 0px 20px;
+}
+.btn-danger:hover{
+    color: #fff;
+    border-color: #dd4b2b;
+    background-color: #dd4b2b;
+}
+.blog-section{
+    padding: 50px 0px;
+}
+.blog-section h1{
+    font-size: 44px;
+    padding-bottom: 20px 0px;
+}
+.rd-more{
+background-color:orange;
+}
+.blog-section p{
+    line-height: 25px;
+    padding: 10px 0px;
+}
+footer{
+    background: #d75d03;
+    padding: 50px 0px;
+}
+footer ul li{
+    list-style: none;
+}
+footer li{
+    color: #fff;
+    line-height: 30px;
+}
+
+footer ul a :hover{
+    
+}
+.footer-img{
+    background: url(../images/sliderpic-2.jpg);
+    background-size: cover;
+    padding: 70px 0px;
+}
+.footer-img p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+}
+.opacity{
+    background: rgba(0,0,0,.5);
+    padding: 60px 0px;
+}
